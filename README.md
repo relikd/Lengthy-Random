@@ -19,6 +19,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </code></pre>
 
-- You can specify the Question (multiple parameters possible) and set a time span for calculation.
+- You can specify the Question and set a time span for calculation.
 - If it takes to long for you simply hit the cancel button and get an result immediately.
 - You can lock some numbers if you like

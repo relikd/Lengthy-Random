@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mode</key>
+	<integer>0</integer>
+	<key>time</key>
+	<integer>1</integer>
+	<key>query</key>
+	<integer>0</integer>
+	<key>queries</key>
+	<array>
+		<string>Yes,No</string>
+		<string>One,Two,Three</string>
+		<string>Fast Food,Food from supermarket,Organic Food,I&apos;m not hungry</string>
+	</array>
+	<key>times</key>
+	<array>
+		<integer>30</integer>
+		<integer>120</integer>
+		<integer>600</integer>
+		<integer>2520</integer>
+	</array>
+</dict>
+</plist>
