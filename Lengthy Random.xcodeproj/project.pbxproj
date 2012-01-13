@@ -12,7 +12,7 @@
 		542E7CC2147EC0C9002C7228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E7CC1147EC0C9002C7228 /* main.m */; };
 		542E7CC9147EC0C9002C7228 /* Long_RandomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E7CC8147EC0C9002C7228 /* Long_RandomAppDelegate.m */; };
 		542E7CCC147EC0C9002C7228 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542E7CCA147EC0C9002C7228 /* MainMenu.xib */; };
-		544E5DF514B000DA004376EC /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 544E5DF414B000DA004376EC /* Icon.icns */; };
+		54510FF114C099AB00931319 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 54510FF014C099AB00931319 /* Icon.icns */; };
 		545469921490152200ED7520 /* LRSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 545469911490152200ED7520 /* LRSettings.plist */; };
 		5476E41B14AF5A94004AE3D4 /* DispatchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5476E41A14AF5A94004AE3D4 /* DispatchObject.m */; };
 		5498239D14AFC8D600346E2C /* LRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498239C14AFC8D600346E2C /* LRTextField.m */; };
@@ -32,7 +32,7 @@
 		542E7CC7147EC0C9002C7228 /* Long_RandomAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Long_RandomAppDelegate.h; sourceTree = "<group>"; };
 		542E7CC8147EC0C9002C7228 /* Long_RandomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Long_RandomAppDelegate.m; sourceTree = "<group>"; };
 		542E7CCB147EC0C9002C7228 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		544E5DF414B000DA004376EC /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../Icon.icns; sourceTree = "<group>"; };
+		54510FF014C099AB00931319 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		545469911490152200ED7520 /* LRSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LRSettings.plist; sourceTree = "<group>"; };
 		5476E41914AF5A94004AE3D4 /* DispatchObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchObject.h; sourceTree = "<group>"; };
 		5476E41A14AF5A94004AE3D4 /* DispatchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchObject.m; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		542E7CBC147EC0C9002C7228 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				544E5DF414B000DA004376EC /* Icon.icns */,
+				54510FF014C099AB00931319 /* Icon.icns */,
 				542E7CBD147EC0C9002C7228 /* Lengthy Random-Info.plist */,
 				545469911490152200ED7520 /* LRSettings.plist */,
 				542E7CBE147EC0C9002C7228 /* InfoPlist.strings */,
@@ -173,7 +173,7 @@
 				542E7CC0147EC0C9002C7228 /* InfoPlist.strings in Resources */,
 				542E7CCC147EC0C9002C7228 /* MainMenu.xib in Resources */,
 				545469921490152200ED7520 /* LRSettings.plist in Resources */,
-				544E5DF514B000DA004376EC /* Icon.icns in Resources */,
+				54510FF114C099AB00931319 /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
