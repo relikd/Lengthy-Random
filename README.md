@@ -21,3 +21,10 @@
 - You can specify the Question and set a time span for calculation.
 - If it takes to long for you simply hit the cancel button and get an result immediately.
 - You can lock some numbers if you like
+
+![Screenshot](http://media.tumblr.com/tumblr_lxqpdgdHEH1qlm2g5.png "Screenshot")
+
+![Questions](http://media.tumblr.com/tumblr_lxqp8giF0c1qlm2g5.png "Questions")
+
+![estTime](http://media.tumblr.com/tumblr_lxqp8qokyh1qlm2g5.png "estimated Time")
+
