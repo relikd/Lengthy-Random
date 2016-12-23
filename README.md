@@ -22,9 +22,9 @@
 - If it takes to long for you simply hit the cancel button and get an result immediately.
 - You can lock some numbers if you like
 
-![Screenshot](http://media.tumblr.com/tumblr_lxqpdgdHEH1qlm2g5.png "Screenshot")
+![Screenshot](https://github.com/relikd/Lengthy-Random/blob/master/img/screenshot.png)
 
-![Questions](http://media.tumblr.com/tumblr_lxqp8giF0c1qlm2g5.png "Questions")
+![Questions](https://github.com/relikd/Lengthy-Random/blob/master/img/questions.png)
 
-![estTime](http://media.tumblr.com/tumblr_lxqp8qokyh1qlm2g5.png "estimated Time")
+![Estimated Time](https://github.com/relikd/Lengthy-Random/blob/master/img/estimatedTime.png)
 
