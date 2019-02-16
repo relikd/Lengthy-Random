@@ -5,7 +5,7 @@
 	<key>mode</key>
 	<integer>0</integer>
 	<key>time</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>query</key>
 	<integer>0</integer>
 	<key>queries</key>
@@ -16,10 +16,10 @@
 	</array>
 	<key>times</key>
 	<array>
+		<integer>10</integer>
 		<integer>30</integer>
 		<integer>120</integer>
 		<integer>600</integer>
-		<integer>2520</integer>
 	</array>
 </dict>
 </plist>
