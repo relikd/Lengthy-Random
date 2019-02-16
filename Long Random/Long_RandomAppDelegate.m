@@ -205,10 +205,9 @@ int timerCountdown; // needed for progress bar
 	NSArray *answers = [askedQuestion componentsSeparatedByString:@","];
 	NSString *answer = [answers objectAtIndex:(sum % answers.count)];
 	
-	NSAlert *display = [NSAlert alertWithMessageText:title 
-									   defaultButton:@"Thanks" 
-									 alternateButton:nil otherButton:nil 
-						   informativeTextWithFormat:answer];
+	NSAlert *display = [[NSAlert alloc] init];
+	display.messageText = title;
+	display.informativeText = answer;
 	[display beginSheetModalForWindow:self.window modalDelegate:self didEndSelector:NULL contextInfo:nil];
 	
 	[self disableUI:NO];
@@ -237,7 +236,9 @@ int timerCountdown; // needed for progress bar
 	dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
 	dispatch_after(popTime, gcdObj.queue, ^(void){
 		if (shouldRunRandom) {
-			if (gcdObj.active) [gcdObj.target setStringValue:[NSString stringWithFormat:@"%i", arc4random()%10]];
+			dispatch_async(dispatch_get_main_queue(), ^{
+				if (gcdObj.active) [gcdObj.target setStringValue:[NSString stringWithFormat:@"%i", arc4random()%10]];
+			});
 			[self executeOnQueue:gcdObj];
 		}
 	});
@@ -271,7 +272,7 @@ int timerCountdown; // needed for progress bar
 	if ([comps hour] > 0) [form appendFormat:@" %.ldh", [comps hour]];
 	if ([comps minute] > 0) [form appendFormat:@" %.ldm", [comps minute]];
 	if ([comps second] > 0) [form appendFormat:@" %.lds", [comps second]];
-	[form deleteCharactersInRange:NSRangeFromString(@"{0, 1}")];
+	[form deleteCharactersInRange:NSMakeRange(0, 1)];
 	
 	return form;
 }
@@ -523,6 +524,9 @@ int timerCountdown; // needed for progress bar
 
 - (void)dealloc
 {
+	[stopAfter release];
+	[timeSince release];
+	[askedQuestion release];
 	askedQuestion = nil;
 	[gcdObjects release];
 	[super dealloc];
